@@ -36,7 +36,7 @@ class Test {
     fileprivate let val = 10
 }
 
-Test().val
+print(Test().val)
 
 class Another {
     func test() {

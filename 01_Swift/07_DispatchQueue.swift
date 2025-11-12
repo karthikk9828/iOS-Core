@@ -54,6 +54,8 @@ DispatchQueue.main.async {
 
 // ------------------------------- predict the output -------------------------------
 
+import Foundation
+
 let queue = DispatchQueue(label: "queue")
 
 var numbers: String = ""

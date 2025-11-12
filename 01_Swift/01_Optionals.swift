@@ -16,7 +16,7 @@ c = nil
 c = "hey"
 
 // Use var c: String! when we are sure that at some point we will assign a value to 'c' before accessing it,
-// we are certail that 'c' will not contain nil when we access it
+// we are certain that 'c' will not contain nil when we access it
 // Used in IB outlets -> because when the viewcontroller is initialized, the outlets may not have been set
 // will be set later by xcode 
 

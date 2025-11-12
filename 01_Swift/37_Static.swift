@@ -34,7 +34,7 @@ class MyClass2: MyClass1 {
 print(MyClass1.count) // count is initialized when accessed here
 print(MyClass2.count)
 
-// ----------------------- Static funstions cannot be overridden, use class functions instead ------------------------------------------
+// ----------------------- Static functions cannot be overridden, use class functions instead ------------------------------------------
 
 class MyClass3 {
     static func myFunc() {
@@ -43,10 +43,10 @@ class MyClass3 {
 }
 
 class MyClass4: MyClass3 {
-    override class var count: Int { 20 }
+    // override class var count: Int { 20 }
 
     // error: cannot override static method
-    static func myFunc() {
+    override static func myFunc() {
         print("MyClass4 myFunc")
     }
 }

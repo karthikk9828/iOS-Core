@@ -19,6 +19,10 @@
         https://www.avanderlee.com/swift/anyobject-any/
 */
 
+/**
+String in Swift is a value type (struct), but when we cast it to AnyObject, 
+Swift uses Objective-C bridging to convert it into an NSString, which is a reference type and inherits from NSObject.
+*/
 var object: AnyObject
 object = "This is a string" as AnyObject
 
@@ -42,6 +46,12 @@ protocol NetworkServicer {
     func fetchUserName() -> String 
 }
 
+class MyService: NetworkServicer {
+    func fetchUserName() -> String {
+        return "John"
+    }
+}
+
 class ViewModel {
     var userName: String?
     private var service: any NetworkServicer
@@ -56,3 +66,7 @@ class ViewModel {
         }
     }
 }
+
+let service = MyService()
+let viewModel = ViewModel(service: service)
+print(viewModel.fetchData())

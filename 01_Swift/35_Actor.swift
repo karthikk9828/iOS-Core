@@ -12,6 +12,27 @@ import Foundation
         * Properties and methods of actor can be accessed using `await` keyword.
 */
 
+actor Logger {
+    let id = UUID()
+
+    func log(_ message: String) {
+        print("(\(id)) \(message)")
+    }
+
+    nonisolated func info(_ message: String) {
+        print("INFO: \(message)")
+    }
+}
+
+let logger = Logger()
+
+Task {
+    await logger.log("Actor-isolated function")  // ✅ needs await
+}
+
+logger.info("Non-isolated function")  // ✅ no await needed
+
+
 actor User {
     var score = 10
 

@@ -29,3 +29,39 @@ the need for flexibility in updates, and the level of code reuse across multiple
 Both static and dynamic frameworks have their advantages and disadvantages, 
 and the choice depends on your specific requirements and preferences.
 */
+
+/**
+    Framework
+        - is a directory containing a static or dynamic library and any files associated with that library.
+
+    Dynamic Library (dylib) 
+        - is a dependency that is linked to another module or the main executable (Application) in runtime when the application process is being initialized.
+    
+    Dynamic Linking 
+        - is a relation between a module / main executable and its dependency. This relation is being resolved in runtime.
+        - We can see it the build phase "Link Binary With Libraries" if there are any
+
+    Static Library 
+        - is a dependency, symbols (contents) of which are being attached to a module or the main executable, shall it depend on such library, during the project compilation.
+
+    Static Linking 
+        - is a relation between a module / main executable and its dependency. This relation is being resolved in compile time.
+            Framework a directory containing a static or dynamic library and any files associated with that library.
+
+    Cold Start 
+        - is the situation when an application is being started from scratch. At these circumstances, no libraries were preloaded or cached by the system and it takes the maximum possible amount of time to start the process since all the dependencies need to be loaded over again.
+
+    Warm Start 
+        - is a situation when the system has cached some or all of the dependencies of an application during the Cold Start and it doesn't need to load those from scratch. This feature was introduced by Apple to speed up application launching process.
+    
+    dyld 
+        -is a tool provided by Apple to work with dynamic libraries (dylibs). This tool allows OS performing such operations as loading specified dynamic libraries, calculating the ASLR offset, validation of code signature and so on.
+
+    ASLR Address Space Layout Randomization
+        - is a form of data security used to randomize data on the RAM to help prevent exploits from taking control of the system. It first appeared in iOS 4.3.
+*/
+
+/**
+    We can change from Dynamic to static library by changing build settings 
+    and ensure that MACH_O_TYPE is equal to a 'Dynamic Library'
+*/

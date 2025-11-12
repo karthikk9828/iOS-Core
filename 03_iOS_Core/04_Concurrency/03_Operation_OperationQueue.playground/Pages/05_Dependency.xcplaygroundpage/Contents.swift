@@ -7,6 +7,8 @@ import Foundation
 
 func testOperations() {
     let operationQueue: OperationQueue = OperationQueue()
+    // even though we allow multiple concurrent ops, since we have dependency, it waits for that op to finish
+    operationQueue.maxConcurrentOperationCount = 2
     
     let operation1: BlockOperation = BlockOperation()
     operation1.addExecutionBlock {

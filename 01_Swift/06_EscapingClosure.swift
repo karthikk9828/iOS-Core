@@ -23,6 +23,15 @@ class SomeClass {
         // Perform some asynchronous operation
         // ...
     }
+
+    // No need to mark optional closures as @escaping
+    func doSomething3(completion: (() -> Void)?) {
+        // Store the closure for later execution
+        completionHandler = completion
+
+        // Perform some asynchronous operation
+        // ...
+    }
 }
 
 let instance = SomeClass()
@@ -36,3 +45,9 @@ instance.finishOperation()
 instance.doSomething2 {
     print("doSomething2")
 }
+
+instance.doSomething3 {
+    print("doSomething3")
+}
+
+instance.finishOperation()

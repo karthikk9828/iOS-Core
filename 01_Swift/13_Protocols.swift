@@ -18,7 +18,9 @@ extension Shape {
 
 // How to allow only classes conform to protocol?
 
-protocol ClassOnly : class {}
+protocol ClassOnly : class {} // deprecated
+// or
+protocol ClassOnly : AnyObject {}
 
 class MyClass : ClassOnly {} // works
 

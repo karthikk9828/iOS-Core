@@ -1,4 +1,4 @@
-import UIKit
+import Foundation
 
 var counter = 1
 
