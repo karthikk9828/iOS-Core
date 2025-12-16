@@ -35,7 +35,7 @@ class TaskGroupAPIManager {
   }
   
   /*
-   Use async let when we don't know the exact number of concurrent tasks to be executed.
+   Use TaskGroup when we don't know the exact number of concurrent tasks to be executed.
    When we have dynamic number of tasks to be executed concurrently, we can use TaskGroup.
    */
   func fetchImagesWithTaskGroup() async throws -> [UIImage] {

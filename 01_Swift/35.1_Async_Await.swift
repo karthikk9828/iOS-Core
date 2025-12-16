@@ -49,8 +49,8 @@ Task {
 // ------------------------- Parellel API Calls ---------------------------------------
 
 func performConcurrentApiCalls() async {
-    async let firstData = await fetchFirstData()
-    async let secondData = await fetchSecondData()
+    async let firstData = fetchFirstData()
+    async let secondData = fetchSecondData()
     
     do {
         let results = try await [firstData, secondData]

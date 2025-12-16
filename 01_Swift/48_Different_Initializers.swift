@@ -3,7 +3,7 @@ import Foundation
 /**
     1. Designated initializers
         - Are the primary initializers
-        - structs have designated initializers by default, for classed we have to define them
+        - structs have designated initializers by default, for classes we have to define them
         - we can have one or more designated initializers
 */
 

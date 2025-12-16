@@ -10,6 +10,7 @@ import Foundation
     4. Classes let us change properties of the instance even if the instance is a constant, struct will not allow this
     5. Objective-C code can be written in classes but not in structs.
     6. Each thread will have its own stack, therefore structs are threadsafe. Classes types are not thread-safe
+    7. Classes support inheritence, structs don't support inheritence.
  */
 
 class Car {

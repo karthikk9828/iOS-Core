@@ -1,0 +1,9 @@
+{
+  "Simulator Target Bundle": "com.test.-1-PushNotifications",
+  "aps": {
+    "alert": {
+      "title": "Hello from APNs!",
+      "body": "This is a test push notification."
+    }
+  }
+}
