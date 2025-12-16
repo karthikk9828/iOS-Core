@@ -8,11 +8,52 @@
 import SwiftUI
 
 struct _5_ActionSheet: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  
+  @State private var showActionSheet = false
+  
+  var body: some View {
+    
+    VStack {
+      HStack {
+        Circle()
+          .frame(width: 30, height: 30)
+        Text("@username")
+        Spacer()
+
+        Button {
+          showActionSheet.toggle()
+        } label: {
+          Image(systemName: "ellipsis")
+        }
+        .tint(.primary)
+      }
+      
+      Rectangle()
+        .aspectRatio(1.0, contentMode: .fit)
     }
+    .padding(.horizontal, 8)
+    .actionSheet(isPresented: $showActionSheet) {
+      actionSheet
+    }
+    
+  }
+  
+  var actionSheet: ActionSheet {
+    
+    let button1: ActionSheet.Button = .default(Text("Default"))
+    let button2: ActionSheet.Button = .destructive(Text("Destructive"))
+    let button3: ActionSheet.Button = .cancel()
+      
+    return ActionSheet(
+      title: Text("This is the title"),
+      message: Text("This is the message"),
+      buttons: [
+        button1, button2, button3
+      ]
+    )
+  }
 }
 
 #Preview {
-    _5_ActionSheet()
+  _5_ActionSheet()
 }

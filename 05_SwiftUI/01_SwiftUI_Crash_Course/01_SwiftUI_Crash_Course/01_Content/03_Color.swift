@@ -6,13 +6,29 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct _3_Color: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+  
+  var body: some View {
+    
+    RoundedRectangle(cornerRadius: 25)
+      .fill(
+        
+        //Color.primary // adapts to light/dark mode
+        
+        // Color(UIColor.secondarySystemBackground)
+        
+        Color(.app)
+      )
+      .frame(width: 300, height: 200)
+      //.shadow(radius: 10)
+      .shadow(color: .app.opacity(0.3), radius: 10, x: 20, y: 20)
+    
+  }
+  
 }
 
 #Preview {
-    _3_Color()
+  _3_Color()
 }

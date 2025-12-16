@@ -30,4 +30,4 @@ company!.employee = employee
 employee!.company = company
 
 employee = nil
-// company = nil
+company = nil

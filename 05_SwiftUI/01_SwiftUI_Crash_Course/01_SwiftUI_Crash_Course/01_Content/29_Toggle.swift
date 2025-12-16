@@ -8,11 +8,20 @@
 import SwiftUI
 
 struct _9_Toggle: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  
+  @State private var isOn: Bool = true
+  
+  var body: some View {
+    
+    Toggle(isOn: $isOn) {
+      Text("Notifications")
     }
+    .tint(.red)
+    .padding()
+    
+  }
 }
 
 #Preview {
-    _9_Toggle()
+  _9_Toggle()
 }

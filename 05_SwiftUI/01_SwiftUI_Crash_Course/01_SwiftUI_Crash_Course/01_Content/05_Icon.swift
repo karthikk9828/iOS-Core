@@ -8,11 +8,20 @@
 import SwiftUI
 
 struct _5_Icon: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+  
+  var body: some View {
+    
+    Image(systemName: "person.fill.badge.plus")
+      .renderingMode(.original)
+      .resizable()
+      .scaledToFit()
+      .frame(width: 200, height: 200)
+//      .foregroundColor(.blue)
+    
+  }
+  
 }
 
 #Preview {
-    _5_Icon()
+  _5_Icon()
 }

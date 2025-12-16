@@ -7,12 +7,51 @@
 
 import SwiftUI
 
+/*
+  Animations
+    - Used when view is already on the screen and we want to animate changes to its properties.
+ 
+  Transitions
+    - Used when view is being added or removed from the
+*/
+
 struct _9_Transitions: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  
+  @State var showView: Bool = false
+  
+  var body: some View {
+    
+    ZStack(alignment: .bottom) {
+      VStack {
+        Button {
+          showView.toggle()
+        } label: {
+          Text(showView ? "Hide" : "Show")
+            .foregroundStyle(.white)
+            .padding()
+            .padding(.horizontal)
+            .background(.blue)
+            .clipShape(RoundedRectangle(cornerRadius: 10))
+        }
+        
+        Spacer()
+      }
+      
+      if showView {
+        RoundedRectangle(cornerRadius: 30)
+          .frame(height: UIScreen.main.bounds.height / 2)
+//          .transition(.slide)
+//          .transition(AnyTransition.opacity.animation(.easeInOut))
+          .transition(.move(edge: .bottom))
+          .animation(.spring)
+      }
     }
+    .ignoresSafeArea()
+    .padding(.top, 50)
+    
+  }
 }
 
 #Preview {
-    _9_Transitions()
+  _9_Transitions()
 }

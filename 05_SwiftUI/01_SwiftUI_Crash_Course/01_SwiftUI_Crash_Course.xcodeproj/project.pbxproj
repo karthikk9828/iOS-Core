@@ -7,32 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		D7EC9BD32EC8918400E7E024 /* 02_VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 02_VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E79FF32ED5B6E3003CD7ED /* 01_SwiftUI_Crash_Course.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 01_SwiftUI_Crash_Course.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D7EC9BE52EC8918600E7E024 /* Exceptions for "02_VIPER" folder in "02_VIPER" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = D7EC9BD22EC8918400E7E024 /* 02_VIPER */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D7EC9BD52EC8918400E7E024 /* 02_VIPER */ = {
+		D7E79FF52ED5B6E3003CD7ED /* 01_SwiftUI_Crash_Course */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				D7EC9BE52EC8918600E7E024 /* Exceptions for "02_VIPER" folder in "02_VIPER" target */,
-			);
-			path = 02_VIPER;
+			path = 01_SwiftUI_Crash_Course;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D7EC9BD02EC8918400E7E024 /* Frameworks */ = {
+		D7E79FF02ED5B6E3003CD7ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D7EC9BCA2EC8918400E7E024 = {
+		D7E79FEA2ED5B6E3003CD7ED = {
 			isa = PBXGroup;
 			children = (
-				D7EC9BD52EC8918400E7E024 /* 02_VIPER */,
-				D7EC9BD42EC8918400E7E024 /* Products */,
+				D7E79FF52ED5B6E3003CD7ED /* 01_SwiftUI_Crash_Course */,
+				D7E79FF42ED5B6E3003CD7ED /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D7EC9BD42EC8918400E7E024 /* Products */ = {
+		D7E79FF42ED5B6E3003CD7ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D7EC9BD32EC8918400E7E024 /* 02_VIPER.app */,
+				D7E79FF32ED5B6E3003CD7ED /* 01_SwiftUI_Crash_Course.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D7EC9BD22EC8918400E7E024 /* 02_VIPER */ = {
+		D7E79FF22ED5B6E3003CD7ED /* 01_SwiftUI_Crash_Course */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7EC9BE62EC8918600E7E024 /* Build configuration list for PBXNativeTarget "02_VIPER" */;
+			buildConfigurationList = D7E7A0012ED5B6E4003CD7ED /* Build configuration list for PBXNativeTarget "01_SwiftUI_Crash_Course" */;
 			buildPhases = (
-				D7EC9BCF2EC8918400E7E024 /* Sources */,
-				D7EC9BD02EC8918400E7E024 /* Frameworks */,
-				D7EC9BD12EC8918400E7E024 /* Resources */,
+				D7E79FEF2ED5B6E3003CD7ED /* Sources */,
+				D7E79FF02ED5B6E3003CD7ED /* Frameworks */,
+				D7E79FF12ED5B6E3003CD7ED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				D7EC9BD52EC8918400E7E024 /* 02_VIPER */,
+				D7E79FF52ED5B6E3003CD7ED /* 01_SwiftUI_Crash_Course */,
 			);
-			name = 02_VIPER;
+			name = 01_SwiftUI_Crash_Course;
 			packageProductDependencies = (
 			);
-			productName = 02_VIPER;
-			productReference = D7EC9BD32EC8918400E7E024 /* 02_VIPER.app */;
+			productName = 01_SwiftUI_Crash_Course;
+			productReference = D7E79FF32ED5B6E3003CD7ED /* 01_SwiftUI_Crash_Course.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D7EC9BCB2EC8918400E7E024 /* Project object */ = {
+		D7E79FEB2ED5B6E3003CD7ED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					D7EC9BD22EC8918400E7E024 = {
+					D7E79FF22ED5B6E3003CD7ED = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = D7EC9BCE2EC8918400E7E024 /* Build configuration list for PBXProject "02_VIPER" */;
+			buildConfigurationList = D7E79FEE2ED5B6E3003CD7ED /* Build configuration list for PBXProject "01_SwiftUI_Crash_Course" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = D7EC9BCA2EC8918400E7E024;
+			mainGroup = D7E79FEA2ED5B6E3003CD7ED;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = D7EC9BD42EC8918400E7E024 /* Products */;
+			productRefGroup = D7E79FF42ED5B6E3003CD7ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D7EC9BD22EC8918400E7E024 /* 02_VIPER */,
+				D7E79FF22ED5B6E3003CD7ED /* 01_SwiftUI_Crash_Course */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D7EC9BD12EC8918400E7E024 /* Resources */ = {
+		D7E79FF12ED5B6E3003CD7ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D7EC9BCF2EC8918400E7E024 /* Sources */ = {
+		D7E79FEF2ED5B6E3003CD7ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,59 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D7EC9BE72EC8918600E7E024 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = 02_VIPER/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.-2-VIPER";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D7EC9BE82EC8918600E7E024 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = 02_VIPER/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.-2-VIPER";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		D7EC9BE92EC8918600E7E024 /* Debug */ = {
+		D7E79FFF2ED5B6E4003CD7ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -253,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		D7EC9BEA2EC8918600E7E024 /* Release */ = {
+		D7E7A0002ED5B6E4003CD7ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -309,28 +244,84 @@
 			};
 			name = Release;
 		};
+		D7E7A0022ED5B6E4003CD7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"01_SwiftUI_Crash_Course/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.-1-SwiftUI-Crash-Course";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7E7A0032ED5B6E4003CD7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"01_SwiftUI_Crash_Course/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.-1-SwiftUI-Crash-Course";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D7EC9BCE2EC8918400E7E024 /* Build configuration list for PBXProject "02_VIPER" */ = {
+		D7E79FEE2ED5B6E3003CD7ED /* Build configuration list for PBXProject "01_SwiftUI_Crash_Course" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7EC9BE92EC8918600E7E024 /* Debug */,
-				D7EC9BEA2EC8918600E7E024 /* Release */,
+				D7E79FFF2ED5B6E4003CD7ED /* Debug */,
+				D7E7A0002ED5B6E4003CD7ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7EC9BE62EC8918600E7E024 /* Build configuration list for PBXNativeTarget "02_VIPER" */ = {
+		D7E7A0012ED5B6E4003CD7ED /* Build configuration list for PBXNativeTarget "01_SwiftUI_Crash_Course" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7EC9BE72EC8918600E7E024 /* Debug */,
-				D7EC9BE82EC8918600E7E024 /* Release */,
+				D7E7A0022ED5B6E4003CD7ED /* Debug */,
+				D7E7A0032ED5B6E4003CD7ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D7EC9BCB2EC8918400E7E024 /* Project object */;
+	rootObject = D7E79FEB2ED5B6E3003CD7ED /* Project object */;
 }

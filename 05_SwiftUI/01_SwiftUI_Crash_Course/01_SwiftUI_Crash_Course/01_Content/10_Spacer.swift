@@ -7,12 +7,31 @@
 
 import SwiftUI
 
-struct _0_Spacer: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct _10_Spacer: View {
+  
+  var body: some View {
+    
+    HStack {
+      Rectangle()
+        .fill(.orange)
+        .frame(width: 100, height: 100)
+        .padding(.vertical)
+      
+      Spacer()
+        .frame(height: 10)
+        .background(.red)
+      
+      Rectangle()
+        .fill(.green)
+        .frame(width: 100, height: 100)
+        .padding(.vertical)
     }
+    .background(.blue)
+    
+  }
+  
 }
 
 #Preview {
-    _0_Spacer()
+  _10_Spacer()
 }

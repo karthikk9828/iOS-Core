@@ -8,11 +8,39 @@
 import SwiftUI
 
 struct _6_Image: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  
+  var body: some View {
+    
+    VStack(spacing: 20) {
+      
+      Image(.moonKnight)
+        .resizable()
+        .scaledToFill()
+        .frame(width: 300, height: 200)
+        .clipShape(
+          
+          Circle()
+          
+          //RoundedRectangle(cornerRadius: 20)
+          
+          //Ellipse()
+          
+        )
+      
+      // changing color of image
+      Image(.appleLogo)
+        .renderingMode(.template)
+        .resizable()
+        .scaledToFit()
+        .frame(width: 200, height: 200)
+        .foregroundStyle(.red)
+      
     }
+    
+  }
+  
 }
 
 #Preview {
-    _6_Image()
+  _6_Image()
 }
